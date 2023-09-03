@@ -2,8 +2,12 @@ import React from "react";
 import inflowmateIcon from "../image/inflowmateIcon.svg";
 import Form from "./Form";
 import Dots from "../image/Dots.svg";
+import Footer from "./Footer";
 function Registration(){
     return(
+      <>
+
+      
         <div>
 
           <div className="centered-div">
@@ -40,8 +44,13 @@ function Registration(){
 
                </div>
              </div>
-
+             <div>
+                <Footer color="black"/>
+             </div>
+             
         </div>
+
+        </>
 
   
     )

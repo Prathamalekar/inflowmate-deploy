@@ -2,7 +2,7 @@ import React from "react";
 import obj from "./details-product";
 import Card from "./card";
 import cardDetails from "./card-details";
-import Integration from "./integration-logo";
+
 
 function SetUpProduct(props){
     return(
@@ -14,7 +14,7 @@ function SetUpProduct(props){
             <div>
                 <img src={props.icon} className="Flex-item iconProduct" alt="iconImages"/>
             </div>
-            {console.log(props.boolean2)}
+            
              {props.booleanPratham ? <div className="purple-line"></div>: <div ></div>}
             
             </div>    
@@ -29,7 +29,7 @@ function SetUpProduct(props){
           </div>
         </div>
         <div className="column3">
-            { props.boolean? <div className="Flex-container"><img src={props.img} className="Image productImage" /></div>: <Integration/>} 
+           <img src={props.img} className="Image productImage" /> 
           
        </div>
       </div>
@@ -45,7 +45,6 @@ function mapping(details){
             content = {details.content}
             info = {details.info}
             img = {details.img}
-            boolean = {details.boolean}
             booleanPratham = {details.booleanPratham}
     />)
 }

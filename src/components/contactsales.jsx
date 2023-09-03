@@ -32,7 +32,7 @@ function mappingSalesComp(detail){
       <>
         <div style={{background:"#1d1d1f"}}>
             <div className="contact" style={{color:"#FFF", paddingTop:"10vh"}}>
-               More leads <span className="Next-gen"> 24/7 </span>
+               More leads <span className="Next-gen"> 24/7. </span>
             </div>
                <div className="content" style={{color:"#FFF"}}>
                   Bots work for you all day, every day—starting conversations, 
@@ -42,7 +42,7 @@ function mappingSalesComp(detail){
                    <img src={IMAGEWeb} style={{width:"95%",padding: "2.5%",alignItems:"center"}}/>
                 </div>
                 
-                <div className="contact" style={{color:"#FFF",paddingTop:"10vh" }}>
+                <div className="contact" style={{color:"#FFF" }}>
                     Conversations <span className="Next-gen">Without Boundaries</span>
                 </div>
                 <div className="content" style={{color:"#FFF"}}>
@@ -73,7 +73,7 @@ function mappingSalesComp(detail){
 
                </div>
              </div>
-             <Footer/>
+             <Footer color="white"/>
          </div> 
          
          </>

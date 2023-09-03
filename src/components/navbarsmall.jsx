@@ -20,7 +20,7 @@ function NavbarSmallScreen(){
     return (
       
       <div style={{top: "0",zIndex: "1000",position:"fixed",width:"100%"}} >
-       <nav className="anchor-container">
+        <nav className="anchor-container" style={{background:"white"}}>
          <li><ScrollLink to="product" smooth={true} offset={-10} duration={1000}>Product</ScrollLink></li>
          <li><ScrollLink to="feature" smooth={true} offset={-10} duration={1000}>Feature</ScrollLink></li>
          <li><ScrollLink to="benefits"  smooth={true} offset={-10} duration={1000}>Benefits</ScrollLink></li>

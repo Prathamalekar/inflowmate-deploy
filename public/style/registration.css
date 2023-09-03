@@ -12,7 +12,7 @@
     display: grid;
     grid-template-columns:1fr 1fr;
     border-radius: 0.8125rem;
-    margin:10% 0
+    margin: 10% 0 4%;
     
 }
 .column-registration{
@@ -171,7 +171,7 @@
 .Footer-inflowmate{
   
   font-family: Inter;
-  font-size: 1.375vw;
+  font-size: 1.375;
   font-style: normal;
   font-weight: 500;
   line-height: normal;;
@@ -181,9 +181,11 @@
 }
 
 
-.Footer>footer>i{
+.Footer>footer>a{
   /* margin:0 2% 0 10%; */
-  padding:0 2.5% 
+  color: grey;
+  padding:0 2.5% ;
+  text-decoration: none;
 
 }
 

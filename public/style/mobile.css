@@ -71,6 +71,7 @@
       border: none;
       font-size: 2.5vh;
       margin-right: 2vh;
+      
      }
       .anchor-container{
       font-family: inter;
@@ -79,6 +80,11 @@
       display:flex;
       justify-content:center;
       align-items:center;
+      border-radius: 0rem 0rem 1.1875rem 1.1875rem;
+      border-bottom: 0.3px solid #999;
+      background: #FFF;
+      box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);;
+      
     }
     .container-navbarsmall {
     display: flex; 
@@ -86,9 +92,10 @@
     background: #FFF;
     position: fixed;
     z-index: 1000;
-    background: white;
-    top:0
     
+    top:0;
+    z-index: 10000;
+
     
    }
    .navbarSmallScreen {
@@ -104,6 +111,7 @@
    }
    .heading1 {
     font-size: 6vh;
+    margin: 17vh 0 0 0;
    }
    .ScalesFast {
     font-size:6.5vh;
@@ -117,7 +125,7 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    padding: 4vh 5vh 4vh;
+    padding: 2vh 5vh 2vh;
    }
    .buttonProp{
     width: 17vh;
@@ -127,7 +135,7 @@
    }
    .LetsBuild {
     font-size: 4.375vh;
-    line-height: 4.3vh;
+    margin: 4.5vw 2vw 1.5vw
    }
    .Next-gen{
     font-size: 4.375vh;
@@ -182,10 +190,11 @@
   }
   .column3 > .Flex-container {
     height: 15vh;
+    margin: 7vw;
   } 
     .productImage{
-      height: 100%;
-      width: auto;
+      height: auto;
+      width: 70%;
     
     }
     .flexbox-integration{
@@ -197,8 +206,8 @@
     .contact{
       font-size:4.375vh;
       line-height: 4.5vh;
-      margin:10vh 2vh 0 1vh
-
+      margin:8vh 2vh 0 1vh;
+      padding:5vh 0 0
     }
     .contact >span{
       font-size:4.375vh;
@@ -246,11 +255,10 @@
     font-size: 4.375vh;
     line-height: 5vh;
   }
-  .contact{
-    margin:0
-  }
+  
   .content{
-    margin-top: 4vh;
+    
+    margin: 5vh 2vh 2vw;
   }
   .sales-cart-heading {
     font-size: 2.3vh;
@@ -261,7 +269,7 @@
     width: 50%;
     align-self: center;
     margin: 10% 0;
-    font-size:1vh
+    font-size:0.8vh
   
   }
   .form-container{
@@ -289,24 +297,31 @@
   }
   .Scale-flex{
       font-size: 5vw;
+      margin: 2% 0 0 5%;
   }
 
   .scalebetter{
-    align-items: center;
-    width: 80% ; 
-    height:100%; 
-    padding: 2% 0 0 5%;
-    font-weight: 700;
-    font-family: Barlow Condensed;
-    font-style: italic;
-    font-size: 5vw
+      align-items: center;
+      width: 80%;
+      height: 100%;
+      padding: 3% 0 0 3%;
+      font-weight: 700;
+      font-family: Barlow Condensed;
+      font-style: italic;
+      font-size: 10vw;
+      line-height: 9vw;
   }
   .Next-gen{
     line-height: 7vh;
   }
   .Scale-better{
-    height: auto;
-    margin:10%;
+      height: 10vh;
+      margin: 10%;
+      width: 20.5625rem;
+      height: 13rem;
+      flex-shrink: 0;
+      border-radius: 1.0625rem;
+      background: #141313
   }
   .Scale-flex1 {
     display: flex;
@@ -317,6 +332,12 @@
   .Footer>footer> .Footer-inflowmate{
     font-size: 2.4vw;
   }
+  .Scale-flex1 img {
+    /* width: 80%; */
+    margin-left: 25%;
+    width: 70%;
+  }
+  
   
 
 

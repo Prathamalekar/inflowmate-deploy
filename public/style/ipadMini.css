@@ -1,4 +1,4 @@
-@media (max-width: 1000px)  {
+@media (max-width: 1000px) and (max-height:1024px) {
     .image-container {
       display: flex;
       flex-wrap: wrap;
@@ -17,6 +17,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        height: auto;
     } 
     .grid-card{
         display: block;
@@ -187,9 +188,9 @@
    .contact >span {
      font-size: 5vw;
    }
-  .content {
+    .content {
     font-size: 2vw;
-     margin: 2.5vh;
+    margin: 2.5vh;
   }
   .button-scaleflex {
     height: 5vw;
@@ -213,6 +214,10 @@
   }
   .form-container>form>input::placeholder {
     font-size:1.5vw
+  }
+  .form-container button{
+    font-size: 3vw;
+
   }
 
 }

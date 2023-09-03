@@ -5,10 +5,9 @@ import slack from "../image/slack 2.svg"
 import gmail from "../image/gmail 2.svg"
 import discord from "../image/discord 2.svg"
 import github from "../image/github-6980894 2.svg"
-
 import zapier from "../image/zapier 1.svg"
 import skype from "../image/skype 2.svg";
-import salesForce from "../image/Group 481898.png"
+import salesForce from "../image/salesForce1.png"
 function Integration(){
     return(
         <div className="flexbox-integration">
