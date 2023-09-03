@@ -1,0 +1,326 @@
+@media (max-width:550px) {
+    
+    
+    .Block-elem {
+      padding: 5%;
+      display: block;
+      height: auto;
+      }
+    .column-registration{
+       margin: 20%;
+    
+      } 
+      .mappingSalesComponent {
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .column-sales-cart{
+        width:auto;
+        margin: 5vh;
+        
+      }
+      .sales-cart-content {
+        font-size: 3.125vw;
+      }
+      .sales-cart-heading {
+        font-family: Inter;
+        font-size: 3vh;
+      }
+      .sales-cart-icon {
+        width: 4vh;
+      }
+      .sales-cart-heading-2{
+        font-size: 2vh;
+      }
+      .form-container label {
+        font-size: 1.5vh;
+
+      }
+      .form-container>p {
+        font-size: 2vh;
+      }
+      .form-container button {
+        height: 5vh;
+      }
+      .form-container>form>p {
+        font-size: 0.75vh;
+      }
+      .Connect {
+        font-size: 2.375vh;
+        margin-bottom: 1vh;
+      }
+      .form-info {
+        font-size: 1vh;
+      }
+      .button-scaleflex {
+        width: 40%;
+        height: 4vh;
+      }
+      .image-navbarsmall {
+        width: 20%; /* Set the maximum width for the image */
+        height: auto; /* Maintain the image's aspect ratio */
+        align-self: flex-start;
+        margin: 1vh 0 1vh 2.5vh;
+
+    }
+     .container-navbarsmall button {
+      background: none;
+      border: none;
+      font-size: 2.5vh;
+      margin-right: 2vh;
+     }
+      .anchor-container{
+      font-family: inter;
+      font-weight: 500;
+      height:50vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+    }
+    .container-navbarsmall {
+    display: flex; 
+    justify-content: space-between;
+    background: #FFF;
+    position: fixed;
+    z-index: 1000;
+    background: white;
+    top:0
+    
+    
+   }
+   .navbarSmallScreen {
+    border-radius: 0rem 0rem 1.1875rem 1.1875rem;
+  /* border-bottom: 0.3px solid #999; */
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+    /* position: fixed; */
+   }
+   .HeadingInflow {
+    line-height: 0;
+    margin-top: 10.5vh;
+   }
+   .heading1 {
+    font-size: 6vh;
+   }
+   .ScalesFast {
+    font-size:6.5vh;
+    line-height: 7vh;
+   }
+   .comp1Content{
+    color: rgb(82, 82, 91);
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.7vh;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 4vh 5vh 4vh;
+   }
+   .buttonProp{
+    width: 17vh;
+    height: 5vh;
+    font-size: 1.1rem;
+    letter-spacing: 0.1vh;
+   }
+   .LetsBuild {
+    font-size: 4.375vh;
+    line-height: 4.3vh;
+   }
+   .Next-gen{
+    font-size: 4.375vh;
+   }
+   .container .logo>img {
+    width: 35vh;
+    margin-bottom: 8vw;
+  }
+  .container {
+    height: 25vh;
+  }
+  .content{
+    font-family: Inter;
+    font-size: 1.7vh;
+    font-weight: 500;
+    margin: 4vh 3vh;
+  }
+  .parent-product {
+    grid-template-columns: 1fr 18fr;
+    padding: 1vh;
+  }
+  .purple-line {
+    background: none;
+    width: 0;
+    height: 0;
+  }
+  .Flex-items-title {
+    font-size: 1.9vh;
+    line-height: normal;
+  }
+  .Flex-items-cont {
+    font-size: 2vh;
+    margin: 1vh 0;
+  }
+  .Flex-items-con {
+    font-size: 1.75vh;
+  }
+  .Flex-container {
+    height: auto;
+    margin: 3vh 1vh 0 0;
+  }
+  .column1 > .Flex-container {
+    height: 0;
+  }
+  .iconProduct{
+    height: 3.5vh;
+    width: 3.5vh;
+    padding-top:1.9vh;
+  }
+  .column1{
+    justify-content: flex-end;
+  }
+  .column3 > .Flex-container {
+    height: 15vh;
+  } 
+    .productImage{
+      height: 100%;
+      width: auto;
+    
+    }
+    .flexbox-integration{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100%;
+    }
+    .contact{
+      font-size:4.375vh;
+      line-height: 4.5vh;
+      margin:10vh 2vh 0 1vh
+
+    }
+    .contact >span{
+      font-size:4.375vh;
+
+    }
+    .flexbox {
+      border-radius: 0.6875rem;
+      border: 0.2px solid #616161;
+      background: #F5F5F7;
+    }
+    .grid-card {
+      display: block;
+      width: 100%;
+      text-align: center;
+      height: auto;
+      margin: 0;
+      padding: 0;
+  }
+  .flexbox{
+    border-radius: 0.6875rem;
+    border: 0.2px solid #616161;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin:8vh
+
+  }
+  .card-content {
+
+    font-size: 1.75vh;
+    font-family: Inter;
+    font-weight: 500;
+    margin: 0;
+    padding:0
+  }
+  .flexbox > .card-description {
+    color: #4F4F58;
+    font-family: Inter;
+    font-size: 1.575vh;;
+    font-weight: 400;
+  }
+  .card-image{
+    width: 3.575vh;
+    height: 3.575vh;
+  }
+  .contact >span {
+    font-size: 4.375vh;
+    line-height: 5vh;
+  }
+  .contact{
+    margin:0
+  }
+  .content{
+    margin-top: 4vh;
+  }
+  .sales-cart-heading {
+    font-size: 2.3vh;
+  }
+  .button-scaleflex {
+    margin: 0 0 3vh 0;
+    height: 2vh;
+    width: 50%;
+    align-self: center;
+    margin: 10% 0;
+    font-size:1vh
+  
+  }
+  .form-container{
+    width:100%;
+  }
+  .form-container>form>input::placeholder {
+    font-size:1.5vh
+  }
+  .form-container>form>p{
+    font-size: 1vh;
+  }
+  .form-container button{
+    font-size: 2.5vh;
+  }
+  .column-registration {
+    margin: 0;
+  }
+  .Connect {
+    font-size: 4.345vh;
+    line-height: 4.5vh;
+  }
+  .form-info{
+    font-size:2.125vh;
+    padding: 10% 0 20% 0;
+  }
+  .Scale-flex{
+      font-size: 5vw;
+  }
+
+  .scalebetter{
+    align-items: center;
+    width: 80% ; 
+    height:100%; 
+    padding: 2% 0 0 5%;
+    font-weight: 700;
+    font-family: Barlow Condensed;
+    font-style: italic;
+    font-size: 5vw
+  }
+  .Next-gen{
+    line-height: 7vh;
+  }
+  .Scale-better{
+    height: auto;
+    margin:10%;
+  }
+  .Scale-flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  .Footer>footer> .Footer-inflowmate{
+    font-size: 2.4vw;
+  }
+  
+
+
+
+
+    
+}

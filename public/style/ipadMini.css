@@ -1,0 +1,218 @@
+@media (max-width: 1000px)  {
+    .image-container {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    image {
+      width: 50%;/* Adjust as needed depending on how much you want them to overlap */
+    }
+    .parent-product{
+        grid-template-columns: 1fr 10fr;
+        padding-bottom: 0;
+
+    }
+    .column3{
+        grid-column: 1 / span 2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+    .grid-card{
+        display: block;
+        text-align: center;
+        height: auto;
+        margin: 0;
+        padding:0;
+
+
+    }
+    .flexbox{
+        border-radius: 0.6875rem;
+        border: 0.2px solid #616161;
+        background: #F5F5F7;
+        margin: 10vh;
+
+    }
+    .column3 > .Flex-container{
+        height: 21vh;
+        
+    }
+    .comp1buttons{
+        width: 24.375rem;
+        height: 2.8125rem;
+        flex-shrink: 0;
+        border-bottom: 0.3px solid #999;
+        background: #FFF;
+    }
+     .navbarSmallScreen{
+        border-radius: 0rem 0rem 1.1875rem 1.1875rem;
+        border-bottom: 0.3px solid #999;
+        background: #FFF;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.05);
+       
+        /* position: fixed; */
+    } 
+    .container-navbarsmall {
+        display: flex; 
+        justify-content: space-between;
+        border-bottom: 0.3px solid #999;
+        background: #FFF;
+        
+    }
+    .container-navbarsmall button{
+        background: none;
+        border: none;
+
+    }
+
+    /* Style for the image */
+    .image-navbarsmall {
+        width: 20%; /* Set the maximum width for the image */
+        height: auto; /* Maintain the image's aspect ratio */
+        align-self: flex-start;
+        margin: 2.5vh;
+    }
+
+    /* Style for the button */
+ 
+    .anchor-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      
+
+      
+      .anchor-container li {
+        padding: 2vh 0;
+        text-align: center;
+        width: 100%;
+        text-decoration: none;
+        color: #27272A;
+        text-align: center;
+        font-family: Inter;
+        font-size: 0.6875;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+      }
+      .Block-elem{
+        display: block;
+      }
+  
+      .comp1Content{
+        font-size: 1.5vw;
+        margin:2.5vh;
+        padding:0
+      }
+      .HeadingInflow{
+        margin: 19vw 0 0 0;
+      }
+      .buttonProp{
+        width:15%
+      }
+      .LetsBuild{
+        font-size: 5vw;
+      }
+      .Next-gen {
+        font-size:5vw
+      }
+      .content {
+        color: #52525B;
+        text-align: center;
+        font-family: Inter;
+        font-size: 1.5vw;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin: 2.5vh;
+      }
+      .Flex-items-title {
+        color: rgba(26, 30, 34, 0.89);
+        font-size: 1.6vw;
+
+        padding-bottom: 1vw;
+      }
+    
+      .Flex-items-cont {
+        color: #000;
+        font-size: 2.5vw;
+        margin: 0 0 1vw;
+      }
+    
+    .Flex-items-con {
+      color: #4F4F58;
+
+      font-size: 2vw;
+      margin: 1.3vw 0 1.3vw 0;
+    }
+      .column1 > .Flex-container {
+        height: auto;
+     }
+    .Flex-container{
+      height:auto
+   }
+   .purple-line{
+     height: auto;
+   }
+   .purple-line {
+     background: linear-gradient(179deg, #E082E8 28.69%, #8C2EFF 100%);
+     width: 0.2vw;
+     height: 14vw;
+     margin-right: 1.25vw;
+   }
+   .grid-container-integration {
+     margin: 5.8vw 0 5vw 0;
+   }
+   .contact{
+     margin-top: 4.4vw;
+     font-size: 5vw;
+   }
+   .grid-card>div .flexbox{
+     border-radius: 0.6875rem;
+     border: 0.2px solid #616161;
+     background: #F5F5F7;
+   }
+   .flexbox > .card-description {
+     font-size: 2vw;
+   }
+   .card-content {
+     font-size: 2.5vw;
+   }
+   .card-image {
+     height: 3vw;
+     width: 3vw;
+   }
+   .contact >span {
+     font-size: 5vw;
+   }
+  .content {
+    font-size: 2vw;
+     margin: 2.5vh;
+  }
+  .button-scaleflex {
+    height: 5vw;
+  }
+  .column-registration {
+    padding:0;
+  }
+  .Connect{
+    font-size: 5vw;
+    margin: 10% 0 0 0 
+  }
+  .form-info{
+    padding: 8%;
+    font-size: 2.5vw;
+  }
+  .form-container{
+    margin:0
+  }
+  .form-container label {
+    font-size:1.9vw
+  }
+  .form-container>form>input::placeholder {
+    font-size:1.5vw
+  }
+
+}
