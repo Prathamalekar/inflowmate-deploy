@@ -41,10 +41,10 @@ function NavbarLarge(){
       <Discord/>
       <nav style={styleComp1}>
         <img src={inflowmateIcon} style={{height:"3vw", padding:"0.3rem"}}/>
-        <li><ScrollLink to="product" smooth={true} offset={-80} duration={1000} style={styleAnchor}>Product</ScrollLink></li>
-        <li><ScrollLink to="features" style={styleAnchor} smooth={true} offset={-80} duration={1000}>Features</ScrollLink></li>
-        <li><ScrollLink to="benefits" style={styleAnchor} smooth={true} offset={-80} duration={1000}>Benefits</ScrollLink></li>
-        <li><ScrollLink to="contactsales" style={styleAnchor} smooth={true} offset={-10} duration={1000}>Contact Sales</ScrollLink></li>
+        <li><ScrollLink to="product" smooth={true} offset={-160} duration={2000} style={styleAnchor}>Product</ScrollLink></li>
+        <li><ScrollLink to="features" style={styleAnchor} smooth={true} offset={-150} duration={2000}>Features</ScrollLink></li>
+        <li><ScrollLink to="benefits" style={styleAnchor} smooth={true} offset={-150} duration={2000}>Benefits</ScrollLink></li>
+        <li><ScrollLink to="contactsales" style={styleAnchor} smooth={true} offset={-10} duration={2000}>Contact Sales</ScrollLink></li>
         
 
         

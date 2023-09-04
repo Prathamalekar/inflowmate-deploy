@@ -1,13 +1,7 @@
 import react from "react";
 import img1 from "../image/image-1.svg";
 import img2 from "../image/featuresInflow.png";
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import { Link } from 'react-router-dom';
-import Registration from "./registrationPage";
-import { useNavigate } from "react-router-dom";
-import { HashLink } from 'react-router-hash-link';
-// import { useHistory } from "react-router-dom";
-// import Registration from "./registrationPage";
+
 const handelClick = ()=>{
   const mail = "contactinflowmate@gmail.com"
   const mailUrl = `mailto:${mail}`

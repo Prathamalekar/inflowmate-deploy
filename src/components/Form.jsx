@@ -16,7 +16,8 @@ function Form(){
         
 
     }
-    const handleSubmit=async (event)=>{       
+    const handleSubmit=async (event)=>{      
+        alert("form submitted successfully") 
         event.preventDefault()
         const response = await fetch("/login/submit", {
             method:"POST",
@@ -26,21 +27,16 @@ function Form(){
             body:JSON.stringify(state)
         }
         )
-        console.log(response)
+         console.log(response)
         
         const data = await response.json();
-        if(response.status==200){
-            console.log("Submitted successfully!!")
-        }
-        
-        
-      
-
+        alert("form submitted successfully")
+    
     }
     return(
         <div className="form-container">
             <p> Let’s begin!</p>
-             <form method="POST" onSubmit={handleSubmit}>
+             <form method="POST" id="form" onSubmit={handleSubmit}>
                 <label htmlFor="name" >First *</label>
                 <input onChange={(e)=>{handleClick(e)}} value={setstate.first} type="text" id="first" required placeholder="First Name"/>
                 <label htmlFor="lastname">Last *</label>
@@ -52,7 +48,7 @@ function Form(){
                 <label htmlFor="usecase">Use Case Description *</label>    
                 <textarea onChange={(e)=>{handleClick(e)}} value={setstate.useCase} id="useCase" rows="4" required></textarea>
                 <p>Inflowmate is committed to protecting your privacy. We will store & process your personal information to share the content you requested, and to share updates & news about the company.</p>
-                <button type="submit" onClick={()=>{alert("Thanks!! we'll reachout asap!")}}>Submit</button>
+                <button id = "submit" type="submit" >Submit</button>
               </form> 
             
         </div>

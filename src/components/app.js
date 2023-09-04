@@ -26,13 +26,13 @@ import Features from "./features";
 function App(){    
     const divList = document.querySelectorAll("div");
     for(let i =0;i<divList.length;i++){
-        divList[i].setAttribute("data-aos", "fade-in")
+        divList[i].setAttribute("data-aos", "fade-up")
     }
       
     useEffect(() => {
       Aos.init({
-        offset:200,
-        duration:100
+        offset:0,
+        duration:350
       });
       Aos.refresh();
      }, []);
