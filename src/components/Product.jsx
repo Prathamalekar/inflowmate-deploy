@@ -1,7 +1,8 @@
 import React from "react";
 import obj from "./details-product";
 import Card from "./card";
-import cardDetails from "./card-details";
+import Features from "./features";
+
 
 
 function SetUpProduct(props){
@@ -48,16 +49,7 @@ function mapping(details){
             booleanPratham = {details.booleanPratham}
     />)
 }
-function mappingCard(detail){
-    return(
-    <Card 
-      key = {detail.id}
-      icons = {detail.icon}
-      content = {detail.content}
-      description = {detail.description}
-    />
-    )
-}
+
 function Product(){
     return(
   
@@ -68,8 +60,7 @@ function Product(){
            </div>
            <div className="content">Powered by cutting-edge LLMs, leveraging human-like chatbots has never been this accessible.</div>
            <div>{obj.map(mapping)}</div>
-            <div className="contact"> Customer messaging that <span className="looks-like">looks like you, </span><br/>powered by us</div>
-            <div className="grid-card">{cardDetails.map(mappingCard)}</div>
+            <Features/>
          
         </div>
 

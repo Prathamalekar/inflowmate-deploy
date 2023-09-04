@@ -7,6 +7,11 @@ import Footer from "./Footer";
 // import {useHistory} from "react-router-dom"
 import Registration from "./registrationPage";
 
+const handelClick = ()=>{
+  const mail = "contactinflowmate@gmail.com"
+  const mailUrl = `mailto:${mail}`
+  window.location.href = mailUrl
+}
 
 function mappingSalesComp(detail){
     return(
@@ -23,9 +28,7 @@ function mappingSalesComp(detail){
 }
     
   function ContactSales(){
-  //   const history = useHistory();
-  //   function NavigateToAnotherPage(){
-  //      history.push(Registration)
+
 
   // }
     return (
@@ -58,7 +61,7 @@ function mappingSalesComp(detail){
                   <div className="Scale-flex">
                     <div style={{alignItems:"center",width:"80%",height:"100%",padding: "5% 0 0 5%",fontWeight: "700",fontFamily:" Barlow Condensed",fontStyle: "italic"}}>Scale Better with <span className="inflowmateWord">Inflowmate</span></div>
                     <div style={{display:"flex",height:"100%", paddingLeft: "5%"}}>
-                      <button className="button-scaleflex" >Let’s Talk</button>
+                      <button className="button-scaleflex" onClick={handelClick} >Let’s Talk</button>
                     </div>
                     
                   </div>

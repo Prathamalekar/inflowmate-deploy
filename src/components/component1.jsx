@@ -1,27 +1,36 @@
 import react from "react";
 import img1 from "../image/image-1.svg";
-import img2 from "../image/featuresInflow.png"
-function Component1(){
-  const handleClick = ()=>{
-    const email = "contactinflowmate@gmail.com";
-    const mailtoLink = `mailto:${email}`
+import img2 from "../image/featuresInflow.png";
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import Registration from "./registrationPage";
+import { useNavigate } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+// import { useHistory } from "react-router-dom";
+// import Registration from "./registrationPage";
+const handelClick = ()=>{
+  const mail = "contactinflowmate@gmail.com"
+  const mailUrl = `mailto:${mail}`
+  window.location.href = mailUrl
+}
 
-    window.location.href =mailtoLink;
-  }
+function Component1(){
 
 
     return(
      <div>
+       
        <div className="HeadingInflow">
          <div className="heading1">Chatbots That,</div>
          <div className="ScalesFast">SCALE FAST</div>
          <div className="comp1Content">OpenAI powered chatbot building agency which amplifies results, not heartache.</div>
          
        </div>
-       <div className="Talk-to-us" onClick={handleClick}>
-         
-           <button className="buttonProp Bot-up common">Talk to us</button>
-           <p>It’s Free :<span>&#41;</span></p>
+       <div className="Talk-to-us" >
+      
+       
+            <button className="buttonProp Bot-up common" onClick={handelClick}>Talk To US</button>      
+            <p>It’s Free :<span>&#41;</span></p>
 
        </div>
        
@@ -29,6 +38,7 @@ function Component1(){
            <img src={img1} alt="background" className="background"/>
            <div className="logo"><img src={img2} alt="image"/> </div>
          </div>
+         
         </div> 
      
        

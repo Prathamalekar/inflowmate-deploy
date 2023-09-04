@@ -12,7 +12,7 @@ function Form(){
         data[event.target.id] = event.target.value;
         console.log(event.target.id)
         setstate(data);
-        console.log(data)
+        
 
     }
     const handleSubmit=async (event)=>{       
@@ -25,15 +25,20 @@ function Form(){
             body:JSON.stringify(state)
         }
         )
+        
         const data = await response.json();
-        console.log(data)
+        if(response.status==200){
+            console.log("Submitted successfully!!")
+        }
+        
+        
       
 
     }
     return(
         <div className="form-container">
             <p> Let’s begin!</p>
-             <form onSubmit={handleSubmit}>
+             <form method="POST" onSubmit={handleSubmit}>
                 <label htmlFor="name" >First *</label>
                 <input onChange={(e)=>{handleClick(e)}} value={setstate.first} type="text" id="first" required placeholder="First Name"/>
                 <label htmlFor="lastname">Last *</label>
@@ -45,7 +50,7 @@ function Form(){
                 <label htmlFor="usecase">Use Case Description *</label>    
                 <textarea onChange={(e)=>{handleClick(e)}} value={setstate.useCase} id="useCase" rows="4" required></textarea>
                 <p>Inflowmate is committed to protecting your privacy. We will store & process your personal information to share the content you requested, and to share updates & news about the company.</p>
-                <button type="submit">Submit</button>
+                <button type="submit" onClick={()=>{alert("Thanks!! we'll reachout asap!")}}>Submit</button>
               </form> 
             
         </div>

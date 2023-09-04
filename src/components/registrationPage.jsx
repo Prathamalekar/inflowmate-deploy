@@ -45,7 +45,7 @@ function Registration(){
                </div>
              </div>
              <div>
-                <Footer color="black"/>
+                
              </div>
              
         </div>

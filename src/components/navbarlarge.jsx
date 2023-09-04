@@ -1,8 +1,8 @@
 import React from "react";
 import inflowmateIcon from "../image/inflowmate.png";
 import { Link as ScrollLink} from 'react-scroll';
-import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Discord from "./discordconnection";
+
 
 const styleAnchor = {
     display:"flex",
@@ -28,10 +28,11 @@ const styleComp1 = {
     color: "#272728",
     /* Text color of the navbar */
    }
-   const handelClick = ()=>{
-    window.location.href="https://calendly.com/inflowmateofficial"
-
-   }
+  const handelClick = ()=>{
+    const calendly = "https://calendly.com/inflowmateofficial";
+    window.location = calendly
+  }
+  
 
 function NavbarLarge(){
 
@@ -41,11 +42,11 @@ function NavbarLarge(){
       <nav style={styleComp1}>
         <img src={inflowmateIcon} style={{height:"3vw", padding:"0.3rem"}}/>
         <li><ScrollLink to="product" smooth={true} offset={-80} duration={1000} style={styleAnchor}>Product</ScrollLink></li>
-        <li><ScrollLink to="feature" style={styleAnchor} smooth={true} offset={-80} duration={1000}>Features</ScrollLink></li>
+        <li><ScrollLink to="features" style={styleAnchor} smooth={true} offset={-80} duration={1000}>Features</ScrollLink></li>
         <li><ScrollLink to="benefits" style={styleAnchor} smooth={true} offset={-80} duration={1000}>Benefits</ScrollLink></li>
+        <li><ScrollLink to="contactsales" style={styleAnchor} smooth={true} offset={-10} duration={1000}>Contact Sales</ScrollLink></li>
         
-        {/* <li><Link to="benefits" style={styleAnchor}>Contact Sales</Link></li> */}
-        <li><a href="/contactsales">contact sales</a></li>
+
         
         
         <li style={{display:"flex",alignContent:"center",justifyContent:"center"}}><button className="Bot-up common" onClick={handelClick}>Bot-Up</button></li>
