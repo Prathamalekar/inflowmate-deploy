@@ -255,11 +255,9 @@
     font-size: 4.375vh;
     line-height: 5vh;
   }
-  
-  .content{
-    
-    margin: 5vh 2vh 2vw;
-  }
+  .content {
+    margin: 6vh 2vh 3vw;
+}
   .sales-cart-heading {
     font-size: 2.3vh;
   }
@@ -321,7 +319,8 @@
       height: 13rem;
       flex-shrink: 0;
       border-radius: 1.0625rem;
-      background: #141313
+      background: #141313;
+      display: block;
   }
   .Scale-flex1 {
     display: flex;

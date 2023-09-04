@@ -1,3 +1,4 @@
+import { ConnectionStates } from "mongoose";
 import React, {useState} from "react";
 function Form(){
     const [state,setstate]=useState({
@@ -25,6 +26,7 @@ function Form(){
             body:JSON.stringify(state)
         }
         )
+        console.log(response)
         
         const data = await response.json();
         if(response.status==200){

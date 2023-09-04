@@ -29,7 +29,7 @@ function Component1(){
        <div className="Talk-to-us" >
       
        
-            <button className="buttonProp Bot-up common" onClick={handelClick}>Talk To US</button>      
+            <button className="buttonProp Bot-up common" onClick={handelClick}>Talk To Us</button>      
             <p>It’s Free :<span>&#41;</span></p>
 
        </div>

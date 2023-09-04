@@ -164,7 +164,7 @@
   color:#FFF;
   display: flex;
   align-items: center;
-  padding: 5%;
+  padding: 0 5% 2%;
   
   
 }
@@ -183,7 +183,7 @@
 
 .Footer>footer>a{
   /* margin:0 2% 0 10%; */
-  color:white;
+  color:black;
   padding:0 2.5% ;
   text-decoration: none;
 

@@ -30,7 +30,7 @@ function mappingSalesComp(detail){
   function ContactSales(){
 
 
-  // }
+  
     return (
       <>
         <div style={{background:"#1d1d1f"}}>
@@ -55,29 +55,11 @@ function mappingSalesComp(detail){
                      {object.map(mappingSalesComp)}
                   </div>  
 
-             <div className="Scale-container">
-               <div className="Scale-better">
-                <div className="Scale-column">
-                  <div className="Scale-flex">
-                    <div style={{alignItems:"center",width:"80%",height:"100%",padding: "5% 0 0 5%",fontWeight: "700",fontFamily:" Barlow Condensed",fontStyle: "italic"}}>Scale Better with <span className="inflowmateWord">Inflowmate</span></div>
-                    <div style={{display:"flex",height:"100%", paddingLeft: "5%"}}>
-                      <button className="button-scaleflex" onClick={handelClick} >Let’s Talk</button>
-                    </div>
-                    
-                  </div>
-
+             
                 </div>
-                <div className="Scale-column" >
-                    <div className="Scale-flex1">
-                         <img src={Dots}/>
-                    </div>
-                </div>
+                
 
 
-               </div>
-             </div>
-             <Footer color="white"/>
-         </div> 
          
          </>
 
