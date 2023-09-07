@@ -1,5 +1,6 @@
 import { ConnectionStates } from "mongoose";
 import React, {useState} from "react";
+
 function Form(){
     const [state,setstate]=useState({
         first:"",
@@ -17,20 +18,34 @@ function Form(){
 
     }
     const handleSubmit=async (event)=>{      
-        alert("form submitted successfully") 
+        
         event.preventDefault()
-        const response = await fetch("/login/submit", {
+        try{
+            const response = await fetch("https://inflowmate-web.onrender.com/login/submit", {
             method:"POST",
+            mode: 'no-cors',
             headers:{
                 "Content-Type":"application/json"
             },
-            body:JSON.stringify(state)
+            body:JSON.stringify(state),
+            
         }
         )
-         console.log(response)
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+          const data = await response.json();
+         
+            
+        }catch(err){
+            console.log(err)
+
+        }
         
-        const data = await response.json();
-        alert("form submitted successfully")
+         
+        
+        
+       
     
     }
     return(

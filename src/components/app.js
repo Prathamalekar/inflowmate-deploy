@@ -31,7 +31,7 @@ function App(){
       
     useEffect(() => {
       Aos.init({
-        offset:0,
+        offset:10,
         duration:350
       });
       Aos.refresh();
